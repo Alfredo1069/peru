@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reporte.DescripcionReporte">
+
+
+    <ImageView
+        android:id="@+id/imgFotoDescripcion"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblComentarioDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblId"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblComentarioDescripcion"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblUnidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblFecha"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblUnidad"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEquipo"
+        android:layout_toEndOf="@+id/imgFotoDescripcion"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnLevantarAlerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="192dp"
+        android:text="Levantar Alerta" />
+</RelativeLayout>

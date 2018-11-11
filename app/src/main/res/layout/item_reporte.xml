@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFotoUsuario"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgFotoUsuario"
+        android:layout_toEndOf="@+id/imgFotoUsuario"
+        android:text="Nombre:" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblFecha"
+        android:layout_below="@+id/lblFecha"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblEquipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblFecha"
+        android:layout_below="@+id/lblNombre"
+        android:text="Correo:" />
+
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblFecha"
+        android:layout_below="@+id/lblEquipo"
+        android:layout_marginTop="4dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblUnidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCorreo"
+        android:layout_toEndOf="@+id/imgFotoUsuario"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblUnidad"
+        android:layout_toEndOf="@+id/imgFotoUsuario"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblEstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblUsuario"
+        android:layout_toEndOf="@+id/imgFotoUsuario"
+        android:text="TextView" />
+</RelativeLayout>
