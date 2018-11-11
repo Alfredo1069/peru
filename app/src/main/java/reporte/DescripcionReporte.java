@@ -121,7 +121,7 @@ if (ocultar)
         dialogSubirFoto = new Dialog(getActivity(), android.R.style.Theme_Dialog);
         dialogSubirFoto.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialogSubirFoto.setContentView(R.layout.layout_levantar);
-
+//sdfasdfsdfasdfasdfasdfdsa
 
         Button btnAceptar = (Button)dialogSubirFoto.findViewById(R.id.btnAceptar);
         final EditText txtComentarioLevantar =(EditText)dialogSubirFoto.findViewById(R.id.txtComentarioLevantar);
